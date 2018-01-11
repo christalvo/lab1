@@ -17,12 +17,39 @@ body {
      color: ;
      background-color: #FBF7F3;
      font-family: Garamond;
-     line-height: 2px;
+     line-height: 1px;
 }
 
 h1 {
-     color: pink;
-     font-style: italic;
+     color: #900C3F;
+     letter-spacing:2px;
+}
+
+h2 {
+     color: #C70039;
+     text-transform:uppercase;
+}
+
+h3 {
+     color:#FF5733;
+}
+
+h4 {
+     color:#ACCC73;
+}
+
+b,u {
+     color:;
+}
+
+a {
+     color:#E4B313;
+     text-transform:lowercase;
+     font-style:normal;
+     font-weight:bold;
+     text-decoration:none;
+     letter-spacing:0.5px;
+
 }
 
 .project {
@@ -30,7 +57,7 @@ background-color:gray;
 margin-left:20px;
 }
 
-img .thumbnail {
+img.thumbnail {
 width: 50px;
 height:100px;
 border: 1px solid #434343;
